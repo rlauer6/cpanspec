@@ -1,0 +1,44 @@
+{
+   "abstract" : "Generate a spec file for a CPAN module",
+   "author" : [
+      "Steven Pritchard <steve@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4224",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "cpanspec",
+   "prereqs" : {
+      "runtime" : {
+         "requires" : {
+            "Archive::Tar" : 0,
+            "Archive::Zip" : 0,
+            "File::Basename" : 0,
+            "FileHandle" : 0,
+            "Getopt::Long" : 0,
+            "IO::Uncompress::Bunzip2" : 0,
+            "LWP::UserAgent" : 0,
+            "POSIX" : 0,
+            "Parse::CPAN::Packages" : 0,
+            "Pod::Simple::TextContent" : 0,
+            "Pod::Usage" : 0,
+            "Text::Autoformat" : 0,
+            "YAML" : 0,
+            "locale" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "1.78",
+   "x_serialization_backend" : "JSON::PP version 2.97001"
+}
